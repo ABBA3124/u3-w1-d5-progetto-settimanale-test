@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import './MovieGallery.css'
 
 
 function MovieGallery({ title, categories }) {
@@ -25,7 +26,7 @@ function MovieGallery({ title, categories }) {
   }, [title])
 
   if (loading) {
-    return <div>Caricamento in Corso...</div>
+    return <div><h2 className='text-white'>Caricamento in Corso...</h2></div>
   }
 
   if (movies.length === 0) {
@@ -109,8 +110,8 @@ function MovieGallery({ title, categories }) {
       <h2 className='text-white'>{categories}</h2>
       <Slider {...settings}>
         {movies.map((movie) => (
-          <div key={movie.imdbID}>
-            <img src={movie.Poster} alt={movie.Title} style={{ width: '160px' }} className='mb-2'/>
+          <div key={movie.imdbID} className='provaa'>
+            <img src={movie.Poster} alt={movie.Title} style={{ width: '160px' }} className='mb-2 '/>
             <h4 style={{ fontSize: '15px', width: '120px' }} className='text-white'>{movie.Title}</h4>
             <h4 style={{ fontSize: '15px', width: '120px' }} className='text-white'>{movie.Year}</h4>
           </div>

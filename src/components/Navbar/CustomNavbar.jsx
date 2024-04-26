@@ -2,6 +2,7 @@ import React from 'react'
 import logo from './img/netflix_logo.png' 
 import avatar from './img/avatar.png' 
 import {Container, Navbar, Nav, NavDropdown} from 'react-bootstrap'
+import './CustomNavbar.css'
 
 
 function CustomNavbar() {
@@ -18,11 +19,11 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="custom-navbar-nav" />
         <Navbar.Collapse id="custom-navbar-nav">
           <Nav className="me-auto mb-2 mb-lg-0">
-            <Nav.Link href="#" className="active text-secondary hover5">Home</Nav.Link>
-            <Nav.Link href="#" className="active text-light hover5">Tv Shows</Nav.Link>
-            <Nav.Link href="#" className="active text-secondary hover5">Movies</Nav.Link>
-            <Nav.Link href="#" className="active text-secondary hover5">Recently Added</Nav.Link>
-            <Nav.Link href="#" className="active text-secondary hover5">My List</Nav.Link>
+            <Nav.Link href="#" className="hover5">Home</Nav.Link>
+            <Nav.Link href="#" className="hover5">Tv Shows</Nav.Link>
+            <Nav.Link href="#" className="hover5">Movies</Nav.Link>
+            <Nav.Link href="#" className="hover5">Recently Added</Nav.Link>
+            <Nav.Link href="#" className="hover5">My List</Nav.Link>
           </Nav>
           <Nav className="d-flex align-items-center flex-row">
             <div>

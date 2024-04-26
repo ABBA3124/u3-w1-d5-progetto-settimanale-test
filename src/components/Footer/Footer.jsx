@@ -13,7 +13,7 @@ function Footer() {
                   width="30"
                   height="30"
                   fill="gray"
-                  className="bi bi-facebook"
+                  className="bi bi-facebook icon"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -29,7 +29,7 @@ function Footer() {
                   width="30"
                   height="30"
                   fill="gray"
-                  className="bi bi-instagram"
+                  className="bi bi-instagram icon"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -45,7 +45,7 @@ function Footer() {
                   width="30"
                   height="30"
                   fill="gray"
-                  className="bi bi-twitter"
+                  className="bi bi-twitter icon"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -61,7 +61,7 @@ function Footer() {
                   width="30"
                   height="30"
                   fill="gray"
-                  className="bi bi-youtube"
+                  className="bi bi-youtube icon"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -75,30 +75,30 @@ function Footer() {
         <div className="container">
           <div className="row text-secondary">
             <div className="col-12 col-md-3">
-              <a href="#1" className="nav-link"><p>Audio and Subtitles</p></a>
-              <a href="#2" className="nav-link"><p>Media Center</p></a>
-              <a href="#3" className="nav-link"><p>Privacy</p></a>
-              <a href="#4" className="nav-link"><p>Contact Us</p></a>
+              <a href="#1" className="nav-link hover5"><p>Audio and Subtitles</p></a>
+              <a href="#2" className="nav-link hover5"><p>Media Center</p></a>
+              <a href="#3" className="nav-link hover5"><p>Privacy</p></a>
+              <a href="#4" className="nav-link hover5"><p>Contact Us</p></a>
             </div>
             <div className="col-12 col-md-3">
-              <a href="#5" className="nav-link"><p>Audio Description</p></a>
-              <a href="#6" className="nav-link"><p>Investor Relations</p></a>
-              <a href="#7" className="nav-link"><p>Legal Notices</p></a>
+              <a href="#5" className="nav-link hover5"><p>Audio Description</p></a>
+              <a href="#6" className="nav-link hover5"><p>Investor Relations</p></a>
+              <a href="#7" className="nav-link hover5"><p>Legal Notices</p></a>
             </div>
             <div className="col-12 col-md-3">
-              <a href="#8" className="nav-link"><p>Help Center</p></a>
-              <a href="#9" className="nav-link"><p>Jobs</p></a>
-              <a href="#10" className="nav-link"><p>Cookie Preferences</p></a>
+              <a href="#8" className="nav-link hover5"><p>Help Center</p></a>
+              <a href="#9" className="nav-link hover5"><p>Jobs</p></a>
+              <a href="#10" className="nav-link hover5"><p>Cookie Preferences</p></a>
             </div>
             <div className="col-12 col-md-3">
-              <a href="#11" className="nav-link"><p>Gift Cards</p></a>
-              <a href="#12" className="nav-link"><p>Terms of use</p></a>
-              <a href="#13" className="nav-link"><p>Corporate Information</p></a>
+              <a href="#11" className="nav-link hover5"><p>Gift Cards</p></a>
+              <a href="#12" className="nav-link hover5"><p>Terms of use</p></a>
+              <a href="#13" className="nav-link hover5"><p>Corporate Information</p></a>
             </div>
           </div>
         </div>
         <div className="container">
-          <button className="btn border border-secondary text-white">
+          <button className="btn border border-secondary hover5">
             Service Code
           </button>
         </div>
