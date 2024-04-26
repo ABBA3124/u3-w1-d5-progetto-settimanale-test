@@ -6,6 +6,7 @@ import CustomNavbar from "./components/Navbar/CustomNavbar.jsx"
 import MovieGallery from "./components/MovieGallery/MovieGallery.jsx"
 import FilterGenres from "./components/FilterGenres/FilterGenres.jsx"
 import "bootstrap-icons/font/bootstrap-icons.css"
+import ProfilePage from "./components/ProfilePage/ProfilePage.jsx"
 import SettingsPage from "./components/SettingsPage/SettingsPage.jsx"
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
       <body className="bg-black mx-5">
         <CustomNavbar />
         <article>
+          {/* <SettingsPage/> */}
+          {/* <ProfilePage/> */}
         <FilterGenres/>
         </article>
         <main>
-          <SettingsPage/>
             <MovieGallery title="action" categories="Titoli consigliati" />
             <MovieGallery title="transformers" categories="Titoli che potrebbero piacerti" />
             <MovieGallery title="Harry Potter" categories="Trending Now" />
