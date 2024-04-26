@@ -13,7 +13,7 @@ function ProfilePage() {
         <div>
           <div className="position-relative">
             <img src={ImageProfile} alt="logo kids" height="110" width="110" className="me-2" />
-            <a href="#cambio immagine">
+            <a href="1cambio immagine">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="27"
@@ -43,17 +43,17 @@ function ProfilePage() {
             </DropdownButton>
             <ul className="dropdown-menu">
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="11">
                   Italiano
                 </a>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="1">
                   Germany
                 </a>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <a className="dropdown-item" href="1">
                   usa
                 </a>
               </li>

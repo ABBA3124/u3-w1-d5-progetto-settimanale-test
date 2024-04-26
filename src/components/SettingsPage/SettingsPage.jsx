@@ -20,7 +20,7 @@ function SettingsPage() {
               </div>
               <div className="col-12 col-6 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-6 text-end">
                 <p>
-                  <a href="#" className="text-decoration-none">
+                  <a href="#1" className="text-decoration-none">
                     Change account email
                   </a>
                 </p>
@@ -30,7 +30,7 @@ function SettingsPage() {
               </div>
               <div className="col-12 col-6 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-6 text-end">
                 <p>
-                  <a href="#" className="text-decoration-none">
+                  <a href="#1" className="text-decoration-none">
                     Change password
                   </a>
                 </p>
@@ -40,7 +40,7 @@ function SettingsPage() {
               </div>
               <div className="col-12 col-6 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-6 text-end">
                 <p>
-                  <a href="#" className="text-decoration-none">
+                  <a href="#1" className="text-decoration-none">
                     Change phone number
                   </a>
                 </p>
@@ -63,14 +63,14 @@ function SettingsPage() {
               </div>
               <div className="col-12 col-6 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-6 text-end">
                 <p>
-                  <a href="#" className="text-decoration-none">
+                  <a href="#1" className="text-decoration-none">
                     Update payment info
                   </a>
                 </p>
               </div>
               <div className="col-12 text-end">
                 <p>
-                  <a href="#" className="text-decoration-none">
+                  <a href="#1" className="text-decoration-none">
                     Billing details
                   </a>
                 </p>
@@ -78,14 +78,14 @@ function SettingsPage() {
               <hr className="text-secondary" />
               <div className="col-12 text-end">
                 <p>
-                  <a href="#" className="text-decoration-none">
+                  <a href="#1" className="text-decoration-none">
                     Redeem gift card or promo code
                   </a>
                 </p>
               </div>
               <div className="col-12 text-end">
                 <p>
-                  <a href="#" className="text-decoration-none">
+                  <a href="#1" className="text-decoration-none">
                     Where to buy gift cards
                   </a>
                 </p>
@@ -117,7 +117,7 @@ function SettingsPage() {
           </div>
           <div className="col-12 col-6 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-6">
             <p className="text-end">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Change plan
               </a>
             </p>
@@ -128,32 +128,32 @@ function SettingsPage() {
           </div>
           <div className="col-9">
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Parental controls
               </a>
             </p>
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Test participation
               </a>
             </p>
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Manage download devices
               </a>
             </p>
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Activate a device
               </a>
             </p>
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Recent device streaming activity
               </a>
             </p>
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Sign out of all devices
               </a>
             </p>
@@ -169,41 +169,41 @@ function SettingsPage() {
           </div>
           <div className="col-12 col-6 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-6">
             <p className="mb-1 text-end">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Manage profiles
               </a>
             </p>
             <p className="mb-1 text-end">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Add profile email
               </a>
             </p>
           </div>
           <div className="col-5 offset-3">
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Language
               </a>
             </p>
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Playback settings
               </a>
             </p>
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Subtitle appearance
               </a>
             </p>
           </div>
           <div className="col-4">
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Viewing activity
               </a>
             </p>
             <p className="mb-1">
-              <a href="#" className="text-decoration-none">
+              <a href="#1" className="text-decoration-none">
                 Ratings
               </a>
             </p>
