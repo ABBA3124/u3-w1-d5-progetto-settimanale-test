@@ -13,7 +13,7 @@ function Footer() {
                   width="30"
                   height="30"
                   fill="gray"
-                  className="bi bi-facebook icon"
+                  className="bi bi-facebook"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -29,7 +29,7 @@ function Footer() {
                   width="30"
                   height="30"
                   fill="gray"
-                  className="bi bi-instagram icon"
+                  className="bi bi-instagram"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -45,7 +45,7 @@ function Footer() {
                   width="30"
                   height="30"
                   fill="gray"
-                  className="bi bi-twitter icon"
+                  className="bi bi-twitter"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -61,7 +61,7 @@ function Footer() {
                   width="30"
                   height="30"
                   fill="gray"
-                  className="bi bi-youtube icon"
+                  className="bi bi-youtube"
                   viewBox="0 0 16 16"
                 >
                   <path

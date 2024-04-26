@@ -5,13 +5,13 @@ import Dropdown from "react-bootstrap/Dropdown"
 
 function FilterGenres() {
   return (
-    <div className="d-flex justify-content-between align-items-center ms-2 me-3">
+    <div className="d-flex justify-content-between align-items-center ms-2 me-5">
       <div className="d-flex align-items-center">
         <div>
           <h1 className="text-white fs-2">Tv Shows</h1>
         </div>
         <div className="ms-3">
-          <DropdownButton title="Genres" id="bg-nested-dropdown" variant="btn btn-dark text-white" menuVariant="dark">
+          <DropdownButton title="Genres" id="bg-nested-dropdown" variant="btn btn-black text-white border border-white" menuVariant="dark">
             <Dropdown.Item eventKey="1">Comedy</Dropdown.Item>
             <Dropdown.Item eventKey="2">Drama</Dropdown.Item>
             <Dropdown.Item eventKey="3">Triller</Dropdown.Item>

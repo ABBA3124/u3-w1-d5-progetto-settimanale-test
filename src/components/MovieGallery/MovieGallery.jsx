@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import './MovieGallery.css'
+import Spinner from 'react-bootstrap/Spinner';
 
 
 function MovieGallery({ title, categories }) {
@@ -22,11 +23,16 @@ function MovieGallery({ title, categories }) {
         }
         setLoading(false)
       })
-      .catch(error => console.error('fetch error: ', error))
+      .catch(error => console.error('Errore nella fetch: ', error))
   }, [title])
 
   if (loading) {
-    return <div><h2 className='text-white'>Caricamento in Corso...</h2></div>
+    return <div className='d-flex align-items-center" mt-3 mb-3'>
+        <h2 className='text-white me-3'>Caricamento in Corso...</h2>
+         <Spinner animation="border" role="status">
+        <span className="visually-hidden">Loading...</span>
+        </Spinner>
+        </div>
   }
 
   if (movies.length === 0) {
