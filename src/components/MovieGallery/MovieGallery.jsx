@@ -42,6 +42,7 @@ function MovieGallery({ title, categories }) {
     speed: 500,
     slidesToShow: 8,
     slidesToScroll: 4,
+    lazyLoad: 'ondemand',
     responsive: [
       {
         breakpoint: 1024,
@@ -107,7 +108,7 @@ function MovieGallery({ title, categories }) {
 
   return (
     <div className='mt-5'>
-      <h2 className='text-white'>{categories}</h2>
+      <h2 className='text-white fs-4'>{categories}</h2>
       <Slider {...settings}>
         {movies.map((movie) => (
           <div key={movie.imdbID} className='provaa'>

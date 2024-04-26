@@ -4,12 +4,17 @@ import React from "react"
 import Footer from "./components/Footer/Footer.jsx"
 import CustomNavbar from "./components/Navbar/CustomNavbar.jsx"
 import MovieGallery from "./components/MovieGallery/MovieGallery.jsx"
+import FilterGenres from "./components/FilterGenres/FilterGenres.jsx"
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 function App() {
   return (
     <div className="App bg-black">
       <body className="bg-black mx-5">
         <CustomNavbar />
+        <article>
+        <FilterGenres/>
+        </article>
         <main>
             <MovieGallery title="action" categories="Titoli consigliati" />
             <MovieGallery title="transformers" categories="Titoli che potrebbero piacerti" />
