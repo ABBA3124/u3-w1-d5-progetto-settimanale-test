@@ -5,7 +5,7 @@ import {Container, Navbar, Nav, NavDropdown} from 'react-bootstrap'
 import './CustomNavbar.css'
 
 
-function CustomNavbar() {
+function CustomNavbar({ changeView }) {
   return (
     <Navbar bg="black" expand="lg" variant="dark">
       <Container fluid className="p-0">
@@ -19,11 +19,11 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="custom-navbar-nav" />
         <Navbar.Collapse id="custom-navbar-nav">
           <Nav className="me-auto mb-2 mb-lg-0">
-            <Nav.Link href="#" className="hover5">Home</Nav.Link>
-            <Nav.Link href="#" className="hover5">Tv Shows</Nav.Link>
-            <Nav.Link href="#" className="hover5">Movies</Nav.Link>
-            <Nav.Link href="#" className="hover5">Recently Added</Nav.Link>
-            <Nav.Link href="#" className="hover5">My List</Nav.Link>
+            <Nav.Link onClick={() => changeView('home')} className="hover5">Home</Nav.Link>
+            <Nav.Link href="#1" className="hover5">Tv Shows</Nav.Link>
+            <Nav.Link href="#2" className="hover5">Movies</Nav.Link>
+            <Nav.Link href="#3" className="hover5">Recently Added</Nav.Link>
+            <Nav.Link href="#4" className="hover5">My List</Nav.Link>
           </Nav>
           <Nav className="d-flex align-items-center flex-row">
             <div>
@@ -45,8 +45,9 @@ function CustomNavbar() {
             </div>
             <div className='ms-3 ms-md-0 me-3'>
             <NavDropdown title={<img src={avatar} alt="Immagine Profilo" height="30" />} id="basic-nav-dropdown"  className="" drop="down" menuVariant='dark'>
-              <NavDropdown.Item href="#ProfilePage" className="hover">Edit Profile</NavDropdown.Item>
-              <NavDropdown.Item href="#SettingsPage" className="hover">Impostazioni</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => changeView('profile')} className="hover">Edit Profile</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => changeView('settings')} className="hover">Impostazioni</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => changeView('home')} className="hover">Home</NavDropdown.Item>
             </NavDropdown>
             </div>
           </Nav>
