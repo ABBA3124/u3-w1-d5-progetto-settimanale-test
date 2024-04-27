@@ -62,7 +62,7 @@ function MovieGallery({ title, categories }) {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
           slidesToScroll: 4,
           infinite: true,
           dots: true,
@@ -95,7 +95,7 @@ function MovieGallery({ title, categories }) {
       {
         breakpoint: 770,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
         },
@@ -103,7 +103,7 @@ function MovieGallery({ title, categories }) {
       {
         breakpoint: 580,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
         },
