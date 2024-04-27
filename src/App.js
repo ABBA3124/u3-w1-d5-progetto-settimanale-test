@@ -17,9 +17,9 @@ function App() {
         <article>
           {/* <SettingsPage/> */}
           {/* <ProfilePage/> */}
-        <FilterGenres/>
         </article>
         <main>
+        <FilterGenres/>
             <MovieGallery title="action" categories="Titoli consigliati" />
             <MovieGallery title="transformers" categories="Titoli che potrebbero piacerti" />
             <MovieGallery title="Harry Potter" categories="Trending Now" />
